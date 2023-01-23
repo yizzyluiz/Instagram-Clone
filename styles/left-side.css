@@ -1,0 +1,60 @@
+.left-nav {
+  position: fixed;
+  top: 0px;
+  left: 2px;
+  bottom: 0px;
+  width: 215px;
+  border-width: 0 0.5px 0 0;
+  border-style: solid;
+  border-color: rgb(51, 51, 51);
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+.text-logo {
+  height: 30px;
+  object-fit: contain;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.navs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 12px 14px 12px 14px;
+  border-radius: 5rem;
+  margin-left: -15px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.navs:hover {
+  background-color: rgb(20, 20, 20);
+}
+
+.icons,
+.profile-img {
+  height: 24px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+.profile-img {
+  border-radius: 5rem;
+}
+
+.icon-title,
+.icon-titles {
+  font-family: Instagram Sans;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.icon-titles {
+  color: rgb(237, 237, 237);
+  font-size: 16px;
+  font-weight: 400;
+}

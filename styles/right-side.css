@@ -1,0 +1,129 @@
+.right-side {
+  position: absolute;
+  left: 530px;
+  top: -115px;
+  bottom: 0px;
+  height: 1150px;
+  background-color: rgb(22, 22, 22);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-side-img {
+  height: 55px;
+  border-radius: 5rem;
+  object-fit: contain;
+  margin-right: 18px;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  color: rgb(233, 233, 233);
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 150px;
+}
+
+.profile-switch {
+  font-size: 12px;
+  color: rgb(0, 166, 255);
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.suggestion-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.suggestions {
+  color: rgb(149, 149, 149);
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: 120px;
+}
+
+.see-all {
+  position: relative;
+  left: 27px;
+  color: rgb(233, 233, 233);
+  font-size: 12px; 
+  font-weight: 600;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.see-all:hover {
+  color:rgb(98, 98, 98);
+}
+
+.suggested-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.suggested-img {
+  height: 30px;
+  border-radius: 5rem;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+.suggested-info {
+  display: flex;
+  align-items: center;
+  color: rgb(233, 233, 233);
+  font-weight: 600;
+}
+
+.suggested-acc {
+  margin-right: 5px;
+}
+
+.suggested-details {
+  color: rgb(149, 149, 149);
+  font-size: 13px;
+}
+
+.badge {
+  height: 13px;
+  object-fit: contain;
+}
+
+.follow,
+.follow-1 {
+  position: relative;
+  left: 87px;
+  color:rgb(0, 166, 255);
+  font-size: 12px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.profile-switch:hover,
+.follow:hover,
+.follow-1:hover {
+  color:rgb(157, 221, 255);
+}
+
+.follow-1 {
+  left: 97px;
+}
+
+.about {
+  color: rgb(98, 98, 98);
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
+
+.copyright {
+  color:rgb(98, 98, 98);
+  font-size: 13px;
+}
+
